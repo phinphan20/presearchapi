@@ -12,7 +12,7 @@
 
 <body>
 <?php
-require_once('inc/api.php');
+require_once('api.php');
 ?>
 <div class="container-md">
 	<div class="d-flex justify-content-center mt-3 mb-3"><strong>Presearch API Dashboard</strong></div>
