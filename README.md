@@ -18,6 +18,7 @@ The api.php file uses three API providers, Presearch, Vultr, and CoinMarketCap. 
 ALERT CODE
 
 The alert code is designed to be run from a cron job at whatever inteval you would like.  This command would be for every 30 minutes:
+
 0,30	*	*	*	*
 
 If an alert is triggered, you can send an email and/or a text message.
