@@ -16,7 +16,8 @@ Click on the stats button at the bottom of the page, your API key will be listed
 The api.php file uses three API providers, Presearch, Vultr, and CoinMarketCap.  You will need to copy and paste in your API keys for the code to work properly.  Each spot is labeled in the api.php file where you need to paste the keys.
 
 * - ALERT CODE - *
-The alert code is designed to be run from a cron job at whatever inteval you would like.  This command would be for every 30 minutes:  0,30	*	*	*	*
+The alert code is designed to be run from a cron job at whatever inteval you would like.  This command would be for every 30 minutes:
+0,30	*	*	*	*
 
 If an alert is triggered, you can send an email and/or a text message.
 
